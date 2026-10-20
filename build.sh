@@ -74,5 +74,4 @@ printf '%s\n' \
   'No distributed layer JSON, controls file or launcher script is needed.' \
   'Copy the new bridge DLL and .so beside the three AMD companion/provider DLLs.' \
   'Keep the tested OptiScaler.ini native Vulkan settings.' \
-  'Steam launch options (replace /full/path/to/game with that directory):' \
-  'LD_LIBRARY_PATH="/full/path/to/game${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}" LD_PRELOAD="libnative_fsr4_layer.so${LD_PRELOAD:+:$LD_PRELOAD}" WINEDLLOVERRIDES="dbghelp=n,b" %command%'
+  'LD_PRELOAD="libnative_fsr4_layer.so${LD_PRELOAD:+:$LD_PRELOAD}" %command%'
