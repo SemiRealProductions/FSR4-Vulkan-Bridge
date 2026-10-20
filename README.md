@@ -63,3 +63,21 @@ FSR4 Vulkan setup with OptiScaler
 11. Add the following to the game's Steam launch options:
 
     ```LD_PRELOAD="./libnative_fsr4_layer.so${LD_PRELOAD:+:$LD_PRELOAD}" %command%```
+
+Recommended Optiscaler settings:
+
+```
+[Upscalers]
+VulkanUpscaler=fsr31
+
+[Inputs]
+EnableFfxInputs=false
+
+[FSR]
+UpscalerIndex=0
+Fsr4Update=false
+Fsr4DoNotLoadAmdxc64=true
+
+[Libraries]
+FfxVkPath=auto
+```
