@@ -4,6 +4,7 @@ An experimental bridge that lets supported Windows games use AMD FSR 4.1.2 FP8 t
 Enshrouded uses OptiScaler; Deadlock can use the bridge directly through its existing FSR3 integration.
 
 Tested on an RX 9070 XT with RADV 26.2.5 and GE-Proton11-9.
+With Enshrouded I used Optiscaler 0.9.4 as the nightly builds changed something in the load order which causes flickering.
 
 
 # Linux dependencies
@@ -154,8 +155,8 @@ Tested on an RX 9070 XT with RADV 26.2.5 and GE-Proton11-9.
 
 5. Apply the OptiScaler settings in the final section, then launch Enshrouded.
 
-   Select DLSS Quality in the game's own settings. Press Insert to open
-   OptiScaler and confirm FFX Upscaler shows:
+   Select DLSS Quality in the game's own settings. (You can also use Performance or Balanced)
+   Press Insert to open OptiScaler and confirm FFX Upscaler shows:
 
    4.1.2 * native Vulkan FP8
 
@@ -214,7 +215,7 @@ Tested on an RX 9070 XT with RADV 26.2.5 and GE-Proton11-9.
 
 1. These settings apply to Enshrouded's OptiScaler route. The direct Deadlock setup does not use OptiScaler or its INI settings.
 
-2. In the game's own settings, select DLSS Quality.
+2. In the game's own settings, select DLSS Quality. (You can also select Performance or Balanced, I simply used Quality for mine)
 
 3. In OptiScaler, select FSR 3.X without "w/Dx12" and click Change Upscaler if needed. Confirm FFX Upscaler shows 4.1.2 * native Vulkan FP8.
 
