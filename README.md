@@ -96,7 +96,7 @@ Tested on an RX 9070 XT with RADV 26.2.5 and GE-Proton11-9.
 
    amd_fidelityfx_upscaler_dx12.dll -> amd_fidelityfx_upscaler_vk.dll
 
-7. Compile the custom FSR bridge by running build.sh from the custom folder.
+7. Compile the custom FSR bridge by running build.sh from the custom folder. Alternatively grab the built binaries from the Release tab.
 
    ```bash
    bash ./build.sh
