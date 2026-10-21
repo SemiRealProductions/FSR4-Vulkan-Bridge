@@ -66,24 +66,24 @@ With Enshrouded I used Optiscaler 0.9.4 as the nightly builds changed something 
 1. Download the Windows 11 AMD Adrenalin 26.10.1 driver.
 
    AMD download page:
+   
    https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-9000-series/amd-radeon-rx-9070-xt.html
 
-2. Use 7-Zip to extract the driver executable into a new folder.
+3. Use 7-Zip to extract the driver executable into a new folder.
 
    You only need to extract the files; you do not need to install the driver.
 
-3. Inside the extracted driver folder, open:
+4. Inside the extracted driver folder, open:
 
-   whql-amd-software-adrenalin-edition-26.10.1-win11-c/
-     Packages/Drivers/Display/WT6A_INF/B026676/
+   whql-amd-software-adrenalin-edition-26.10.1-win11-c/Packages/Drivers/Display/WT6A_INF/B026676/
 
    Find amdvkffx64.dll and copy it into a new folder for your collected files.
 
-4. Download FSR SDK 2.3 from GPUOpen:
+5. Download FSR SDK 2.3 from GPUOpen:
 
    https://gpuopen.com/amd-fsr-sdk/
 
-5. Inside the SDK, open:
+6. Inside the SDK, open:
 
    FidelityFX-SDK/Kits/FidelityFX/signedbin/
 
@@ -92,13 +92,13 @@ With Enshrouded I used Optiscaler 0.9.4 as the nightly builds changed something 
    - amd_fidelityfx_loader_dx12.dll
    - amd_fidelityfx_upscaler_dx12.dll
 
-6. Rename the copies in your collected-files folder:
+7. Rename the copies in your collected-files folder:
 
    amd_fidelityfx_loader_dx12.dll -> amd_fidelityfx_loader_vk.dll
 
    amd_fidelityfx_upscaler_dx12.dll -> amd_fidelityfx_upscaler_vk.dll
 
-7. Compile the custom FSR bridge by running build.sh from the custom folder. Alternatively grab the built binaries from the Release tab.
+8. Compile the custom FSR bridge by running build.sh from the custom folder. Alternatively grab the built binaries from the Release tab.
 
    ```bash
    bash ./build.sh
@@ -109,7 +109,7 @@ With Enshrouded I used Optiscaler 0.9.4 as the nightly builds changed something 
    - amd_fidelityfx_vk.dll
    - libnative_fsr4_layer.so
 
-8. Copy both build outputs into your collected-files folder.
+9. Copy both build outputs into your collected-files folder.
 
    You should now have these five files ready for the game-specific steps:
 
