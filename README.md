@@ -4,6 +4,7 @@ An experimental bridge that lets supported Windows games use AMD FSR 4.1.2 FP8 t
 Enshrouded uses OptiScaler; Deadlock can use the bridge directly through its existing FSR3 integration.
 
 Tested on an RX 9070 XT with RADV 26.2.5 and GE-Proton11-9.
+
 With Enshrouded I used Optiscaler 0.9.4 as the nightly builds changed something in the load order which causes flickering.
 
 
